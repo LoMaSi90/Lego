@@ -1,0 +1,30 @@
+.login {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 1.875rem;
+}
+
+.larea {
+    font-size: 0.75rem;
+}
+
+.lbay {
+    display: flex;
+}
+
+.left {
+    transform: rotate(180deg);
+    width: 16px;
+    height: 15px;
+    margin-right: 0.625rem;
+}
+
+.area {
+    text-decoration: none;
+    display:flex;
+    align-items: center;
+}
+
+.pArea {
+    font-weight: 500;
+}
