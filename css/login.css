@@ -1,0 +1,123 @@
+.login {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 1.875rem;
+  height: 55px;
+}
+
+/*---larea---*/
+
+.larea {
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+}
+
+.left {
+  transform: rotate(180deg);
+  width: 16px;
+  height: 15px;
+  margin-right: 0.625rem;
+}
+
+.area {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 3px;
+  background: rgb(171, 217, 255);
+  color: black;
+  box-shadow: rgba(48, 85, 181, 0.44) 0px 1px 4px 0px;
+  padding: 0 10px ;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.5625rem;
+}
+
+.spanArea {
+  font-weight: 500;
+  font-size: var(--contNavSize);
+}
+
+/*---lbay---*/
+
+.lbay {
+  display: flex;
+  align-items: center;
+  color: black;
+  font-size: 0.75rem;
+  line-height: 1.1875rem;
+  font-weight: 400;
+}
+
+.reverse {
+  transform: rotate(180deg);
+}
+
+.lbay button {
+  border: none;
+  background-color: inherit;
+}
+
+.lbay a {
+  color: #006db7;
+  text-decoration: none;
+}
+
+.lbay svg {
+  height: var(--buttonTitle);
+}
+
+/*---loginGroup---*/
+
+.loginGroup {
+  display: flex;
+  align-items: center;
+}
+
+.laccount {
+  display: flex;
+}
+
+.laccount button svg {
+  margin-right: 0.625rem;
+}
+
+.loginGroup button {
+  border: none;
+  background-color: inherit;
+  font-size: var(--contNavSize);
+  line-height: 1.1875rem;
+  display: flex;
+  align-items: center;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.line {
+  height: 1.25rem;
+  width: 0.0625rem;
+  background-color: rgb(117, 117, 117);
+  margin: 0 1.25rem;
+}
+
+.linsiders {
+  display: flex;
+  align-items: center;
+}
+
+.linsiders a {
+  font-size: var(--contNavSize);
+  line-height: 1.1875rem;
+  text-decoration: none;
+  color: black;
+}
+
+.linsiders img {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 0.625rem;
+  display: inline-block;
+  vertical-align: middle;
+}
