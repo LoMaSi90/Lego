@@ -1,0 +1,81 @@
+.navbar {
+    height: 4.688rem;
+    width: 100%;
+    background-color: rgb(255, 207, 0);
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar a img {
+    width: 3.438rem;
+    height: auto;
+    margin-right: 4.0625rem;
+}
+
+.nLinkList {
+    display: flex;
+    align-items: center;
+    padding-left:1.875rem;
+}
+
+.nLegoLogo {
+    align-items: center;
+}
+
+.nMenu {
+    align-items: center;
+}
+
+.nMenu ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.nMenu li {
+    margin-right: 3.125rem;
+}
+
+.nMenu li button {
+    border: none;
+    background-color: inherit;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.nList {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 1.875rem;
+}
+
+.nSearchList button {
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.875rem;
+    color: black;
+}
+
+.nWishList button {
+    border: none;
+    background-color: var(--navbarYellow);
+    margin-right: 1.25rem;
+}
+
+.nOrderList {
+    margin-right: 1.25rem;
+}
+
+.nOrderList a {
+    font-size: 0.75rem;
+    text-decoration: none;
+    color: black;
+    display: inline-flex;
+}
