@@ -43,6 +43,10 @@
     font-weight: 500;
 }
 
+.nMenu li button:hover {
+    border-bottom: 3px solid black;
+}
+
 .nList {
     display: flex;
     justify-content: flex-end;
@@ -63,6 +67,10 @@
     color: black;
 }
 
+.nSearchList button svg {
+    color: black;
+}
+
 .nWishList button {
     border: none;
     background-color: var(--navbarYellow);
@@ -78,4 +86,8 @@
     text-decoration: none;
     color: black;
     display: inline-flex;
+}
+
+.nOrderList a:hover {
+    text-decoration: underline;
 }
