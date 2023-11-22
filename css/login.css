@@ -55,10 +55,6 @@
   font-weight: 400;
 }
 
-.lbay a:hover {
-  text-decoration: underline;
-}
-
 .reverse {
   transform: rotate(180deg);
 }
@@ -68,9 +64,18 @@
   background-color: inherit;
 }
 
+.lbay button:hover {
+  cursor: pointer;
+}
+
 .lbay a {
   color: #006db7;
   text-decoration: none;
+}
+
+
+.lbay a:hover {
+  text-decoration: underline;
 }
 
 .lbay svg {
