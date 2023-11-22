@@ -30,3 +30,7 @@
     text-decoration: none;
     color: black;
 }
+
+.contentBar ul li:hover {
+    text-decoration: underline;
+}
