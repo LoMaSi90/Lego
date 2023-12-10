@@ -16,6 +16,7 @@
     display: flex;
     align-items: center;
     padding-left:1.875rem;
+    margin-left: 1.625rem;
 }
 
 .nLegoLogo {
@@ -37,10 +38,19 @@
 }
 
 .nMenu li button {
-    border: none;
+    border-bottom: 3px solid transparent;
     background-color: inherit;
     text-transform: uppercase;
     font-weight: 500;
+    font-family: 'Cera-Pro-Regular', sans-serif;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    padding: 0;
+}
+
+.nMenu li button:hover {
+   border-bottom-color: black;
 }
 
 .nList {
@@ -48,6 +58,7 @@
     justify-content: flex-end;
     align-items: center;
     padding-right: 1.875rem;
+    margin-right: 1.625rem;
 }
 
 .nSearchList button {
@@ -60,6 +71,10 @@
     align-items: center;
     justify-content: center;
     margin-right: 1.875rem;
+    color: black;
+}
+
+.nSearchList button svg {
     color: black;
 }
 
@@ -78,4 +93,8 @@
     text-decoration: none;
     color: black;
     display: inline-flex;
+}
+
+.nOrderList a:hover {
+    text-decoration: underline;
 }
