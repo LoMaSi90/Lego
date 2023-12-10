@@ -1,6 +1,79 @@
 body {
-    font-family: Cera Pro,sans-serif;
     margin: 0;
+    font-family: 'Cera-Pro-Regular', sans-serif;
+}
+
+@font-face {
+    font-family: 'Cera-Pro-Black';
+    src: url('../fonts/Cera-Pro-Black.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera-Pro-Black-Italic';
+    src: url('../fonts/Cera-Pro-Black-Italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera-Pro-Regular';
+    src: url('../fonts/Cera-Pro-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera-Pro-Regular-Italic';
+    src: url('../fonts/Cera-Pro-Regular-Italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera-Pro-Bold-Italic';
+    src: url('../fonts/Cera-Pro-Bold-Italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Cera-Pro-Bold';
+    src: url('../fonts/Cera-Pro-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Cera-Pro-Light-Italic';
+    src: url('../fonts/Cera-Pro-Light-Italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Cera-Pro-Light';
+    src: url('../fonts/Cera-Pro-Light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Cera-Pro-Medium-Italic';
+    src: url('../fonts/Cera-Pro-Medium-Italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera-Pro-Thin-Italic';
+    src: url('../fonts/Cera-Pro-Thin-Italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera-Pro-Thin';
+    src: url('../fonts/Cera-Pro-Thin.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 :root {
@@ -20,6 +93,5 @@ body {
     --buttonTitle: 1rem;
     --contNavSize: 0.75rem;
     --secTitle: 2rem;
-
+    --contMargin: 1.625rem
 }
-
