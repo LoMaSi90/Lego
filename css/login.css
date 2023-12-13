@@ -83,6 +83,10 @@
   height: var(--buttonTitle);
 }
 
+.x {
+  display: none;
+}
+
 /*---loginGroup---*/
 
 .loginGroup {
