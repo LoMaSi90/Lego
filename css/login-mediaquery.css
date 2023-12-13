@@ -41,6 +41,10 @@
         flex-direction: row-reverse;
     }
 
+    .laccount {
+        display: none;
+    }
+
     .laccount span, .line, .linsiders {
         display: none;
     }
