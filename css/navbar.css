@@ -78,6 +78,10 @@
     color: black;
 }
 
+.laccountNav {
+    display: none;
+}
+
 .nWishList button {
     border: none;
     background-color: var(--navbarYellow);
