@@ -1,0 +1,12 @@
+@media screen and (max-width:786px) {
+    .contentBar {
+        height: 32.557rem;
+    }
+
+    .contentBar ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+    }
+
+}
