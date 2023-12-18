@@ -1,12 +1,23 @@
 @media screen and (max-width:786px) {
     .contentBar {
         height: 32.557rem;
+        background-color: rgb(0, 131, 129);
     }
+
+    .contentBar p {
+        color: white;
+        font-family: 'Cera-Pro-Bold';
+        font-weight: 700;
+        font-size: 0.875rem;
+    }
+
+    
 
     .contentBar ul {
         display: flex;
         flex-wrap: wrap;
         justify-content:center;
+        margin: 0;
     }
 
 }
