@@ -9,6 +9,7 @@
         width: 64px;
         height: 52px;
         align-items: center;
+        display: block;
     }
 
     .burgerMenu button {
@@ -44,4 +45,36 @@
     .laccountNav button {
         border: none;
         background-color: inherit;
+        margin-right: 20px;
+        padding: 0;
     }
+
+    .nWishList button {
+        background-color: white;
+        margin-right: 20px;
+        padding: 0;
+    }
+
+    .nList {
+        padding: 0;
+        margin:0;
+    }
+
+    .nSearchList button {
+        margin-right: 20px;
+        padding: 0;
+        width: 18px;
+    }
+
+    .nLinkList {
+        margin: 0;
+        padding: 0;
+    }
+
+    .nOrderList a {
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+    }
+
+}
