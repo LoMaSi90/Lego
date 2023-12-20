@@ -59,3 +59,19 @@
     }
 
 }
+
+@media screen and (max-width:375px) {
+
+    .lbay {
+        padding-left: 0;
+    }
+
+    .lbay button {
+        padding: 12px;
+    }
+
+    .lbay p {
+        text-align: center;
+        padding: 0 12px;
+    }
+}
