@@ -2,3 +2,7 @@
 @import url(login.css);
 @import url(navbar.css);
 @import url(content-bar.css);
+@import url(navbar-mediaquery.css);
+@import url(card.css);
+@import url(banner.css);
+@import url(style_footer.css)
