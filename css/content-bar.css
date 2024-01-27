@@ -23,10 +23,15 @@
     display: flex;
     justify-content: center;
     font-size: 0.75rem;
+    font-family: 'Cera-Pro-Light', sans-serif;
 
 }
 
 .contentBar ul li a {
     text-decoration: none;
     color: black;
+}
+
+.contentBar ul li:hover {
+    text-decoration: underline;
 }
