@@ -1,0 +1,138 @@
+#sellingCard {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  background-color: yellowgreen;
+  width: auto;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  min-width: 18.359rem;
+  height: 100%;
+}
+
+.cardContent {
+  width: inherit;
+  height: inherit;
+  padding: 0 1px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardImgCont {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.aImg {
+  width: 100%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.cardImage {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0.91) translateZ(0px);
+  transition: transform 600ms cubic-bezier(0, 0, 0.2, 1) 0s;
+}
+
+img.cardImage:hover {
+  transform: scale(1) translateZ(0px);
+}
+
+.cardInfoCont {
+  width: auto;
+  height: 26px;
+  background-color: rgb(255, 207, 0);
+}
+
+.likeCont {
+}
+
+.discountPercent {
+}
+
+.cardInfoCont,
+.likeCont,
+.discountPercent {
+}
+
+.cardRateImg {
+  width: 15px;
+}
+
+.cardInfoSpan {
+  font-size: 0.75rem;
+  display: inline-block;
+  padding: 0.19rem 0.625rem;
+}
+
+.cardTitleCont {
+  width: 100%;
+  background-color: rgb(0, 135, 68);
+}
+
+.h3Title {
+  margin: 0;
+  width: 100%;
+  height: 25px;
+  padding: 5px 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+}
+
+.cardRateCont {
+  margin-bottom: 0.3125rem;
+  height: 15px;
+}
+
+.price {
+  display: flex;
+  width: 100%;
+  height: 28px;
+  align-items: center;
+}
+
+.cardPriceCont {
+  padding-right: 12px;
+  text-decoration: line-through;
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: white;
+}
+
+.cardDiscountCont {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: white;
+}
+
+.productAvailability {
+  width: 100%;
+  height: 59px;
+  padding-top: 0.4375rem;
+}
+
+.productAvailability button {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(225, 249, 224);
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 2px;
+  border-color: rgb(225, 249, 224);
+  font-weight: 500;
+  font-size: 1rem;
+}

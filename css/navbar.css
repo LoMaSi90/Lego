@@ -1,0 +1,117 @@
+.navbar {
+    height: 4.688rem;
+    width: 100%;
+    background-color: rgb(255, 207, 0);
+    display: flex;
+    justify-content: space-between;
+}
+
+.burgerMenu {
+    display: none;
+}
+
+.leftSide {
+    display: flex;
+}
+
+.navbar a img {
+    width: 3.438rem;
+    height: auto;
+    margin-right: 4.0625rem;
+}
+
+.nLinkList {
+    display: flex;
+    align-items: center;
+    padding-left:1.875rem;
+    margin-left: 1.625rem;
+}
+
+.nLegoLogo {
+    align-items: center;
+}
+
+.nMenu {
+    align-items: center;
+}
+
+.nMenu ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.nMenu li {
+    margin-right: 3.125rem;
+}
+
+.nMenu li button {
+    border-bottom: 3px solid transparent;
+    background-color: inherit;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: 'Cera-Pro-Regular', sans-serif;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    padding: 0;
+}
+
+.nMenu li button:hover {
+   border-bottom-color: black;
+}
+
+.nList {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 1.875rem;
+    margin-right: 1.625rem;
+}
+
+.nSearchList button {
+    border-radius: 50%;
+    border: none;
+    background-color: white;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.875rem;
+    color: black;
+}
+
+.nSearchList button svg {
+    color: black;
+}
+
+.laccountNav {
+    display: none;
+}
+
+.nWishList button {
+    border: none;
+    background-color: var(--navbarYellow);
+    margin-right: 1.25rem;
+}
+
+.nOrderList {
+    margin-right: 1.25rem;
+}
+
+.nOrderList a {
+    font-size: 0.75rem;
+    text-decoration: none;
+    color: black;
+    display: inline-flex;
+}
+
+.nOrderList svg {
+    margin-right: 0.3125rem;
+}
+
+.nOrderList a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,37 @@
+.contentBar {
+    height: 24.457rem;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentBar ul {
+    display: inline-flex;
+    padding: 3.125rem 1.925rem;
+    margin: 0 6.531rem;
+}
+
+.contentBar ul li {
+    list-style-type: none;
+    flex: 0 1 calc(16.6667%);
+    padding: calc(0.46875rem);
+}
+
+.contentBar ul li p {
+    display: flex;
+    justify-content: center;
+    font-size: 0.75rem;
+    font-family: 'Cera-Pro-Light', sans-serif;
+
+}
+
+.contentBar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.contentBar ul li:hover {
+    text-decoration: underline;
+}
