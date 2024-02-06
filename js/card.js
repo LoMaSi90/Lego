@@ -132,6 +132,7 @@ const card = [
     info: "",
     discountPercent: "-30%",
     title: "Arte Moderna",
+    rate:[],
     price: "49,99 €",
     discount: "34,99 €",
     availability: "Aggiungi al Carrello",
@@ -163,6 +164,7 @@ const card = [
     info: "",
     discountPercent: "-30%",
     title: "Centro sportivo",
+    rate:[],
     price: "94,99 €",
     discount: "66,49 €",
     availability: "Aggiungi al Carrello",
@@ -263,8 +265,15 @@ function cardReader(card) {
     cardAImg.appendChild(cardImageImg);
     cardImgCont.appendChild(cardAImg);
 
-    //info
+    //title section
+    let titleSection = document.createElement("div");
+    titleSection.className = "titleSection";
+    cardContentDiv.appendChild(titleSection);
+    let bottomImgCont = document.createElement("div");
+    bottomImgCont.className = "bottomImgCont";
+    titleSection.appendChild(bottomImgCont)
 
+    //info
     let cardInfoCont = document.createElement("div");
     cardInfoCont.className = "cardInfoCont";
     let cardInfoSpan = document.createElement("span");
@@ -286,7 +295,7 @@ function cardReader(card) {
     // }
 
     cardInfoCont.appendChild(cardInfoSpan);
-    cardImgCont.appendChild(cardInfoCont);
+    titleSection.appendChild(cardInfoCont);
 
     //like
     let cardLikeDiv = document.createElement("div");
@@ -300,7 +309,7 @@ function cardReader(card) {
 
     cardLikeDiv.appendChild(cardLikeBtn);
     cardLikeBtn.appendChild(cardLikeImg);
-    cardImgCont.appendChild(cardLikeDiv);
+    titleSection.appendChild(cardLikeDiv);
 
     //discountPercent
     let discountPercentDiv = document.createElement("div");
@@ -310,7 +319,7 @@ function cardReader(card) {
     discountPercentSpan.innerText = product.discountPercent;
 
     discountPercentDiv.appendChild(discountPercentSpan);
-    cardImgCont.appendChild(discountPercentDiv);
+    titleSection.appendChild(discountPercentDiv);
 
     cardContentDiv.appendChild(cardImgCont);
 

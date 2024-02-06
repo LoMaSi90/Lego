@@ -27,6 +27,7 @@ a {
     text-transform: none;
     padding: 0.625rem 1.125rem;
     background: rgb(0, 0, 0);
+    margin-top: 2rem;
     
 }
 
@@ -38,7 +39,7 @@ a {
 .div2_banner {
     position: absolute;
     max-width: 45%;
-    padding: 0px;
+    padding-top: 15rem;
     background-color: transparent;
     text-align: right;
     right: 3.75rem;
