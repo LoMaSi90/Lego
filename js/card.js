@@ -295,7 +295,7 @@ function cardReader(card) {
     // }
 
     cardInfoCont.appendChild(cardInfoSpan);
-    titleSection.appendChild(cardInfoCont);
+    bottomImgCont.appendChild(cardInfoCont);
 
     //like
     let cardLikeDiv = document.createElement("div");
@@ -319,7 +319,7 @@ function cardReader(card) {
     discountPercentSpan.innerText = product.discountPercent;
 
     discountPercentDiv.appendChild(discountPercentSpan);
-    titleSection.appendChild(discountPercentDiv);
+    bottomImgCont.appendChild(discountPercentDiv);
 
     cardContentDiv.appendChild(cardImgCont);
 
