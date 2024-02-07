@@ -120,6 +120,7 @@ const card = [
     info: "Esclusivo",
     discountPercent: "-30%",
     title: "Mini Palazzo di Agrabah",
+    rate:[""],
     price: "39,99 €",
     discount: "27,99 €",
     availability: "Aggiungi al Carrello",
@@ -132,7 +133,7 @@ const card = [
     info: "",
     discountPercent: "-30%",
     title: "Arte Moderna",
-    rate:[],
+    rate:[""],
     price: "49,99 €",
     discount: "34,99 €",
     availability: "Aggiungi al Carrello",
@@ -164,7 +165,7 @@ const card = [
     info: "",
     discountPercent: "-30%",
     title: "Centro sportivo",
-    rate:[],
+    rate:[""],
     price: "94,99 €",
     discount: "66,49 €",
     availability: "Aggiungi al Carrello",
@@ -266,19 +267,24 @@ function cardReader(card) {
     cardImgCont.appendChild(cardAImg);
 
     //title section
-    let titleSection = document.createElement("div");
-    titleSection.className = "titleSection";
-    cardContentDiv.appendChild(titleSection);
-    let bottomImgCont = document.createElement("div");
-    bottomImgCont.className = "bottomImgCont";
-    titleSection.appendChild(bottomImgCont)
+    // let titleSection = document.createElement("div");
+    // titleSection.className = "titleSection";
+    // cardContentDiv.appendChild(titleSection);
+    // let bottomImgCont = document.createElement("div");
+    // bottomImgCont.className = "bottomImgCont";
+    // titleSection.appendChild(bottomImgCont)
 
     //info
-    let cardInfoCont = document.createElement("div");
-    cardInfoCont.className = "cardInfoCont";
-    let cardInfoSpan = document.createElement("span");
-    cardInfoSpan.className = "cardInfoSpan";
-    cardInfoSpan.innerText = product.info;
+    // let cardInfoCont = document.createElement("div");
+    // cardInfoCont.className = "cardInfoCont";
+    // let cardInfoSpan = document.createElement("span");
+    // cardInfoSpan.className = "cardInfoSpan";
+    // cardInfoSpan.innerText = product.info;
+    // cardInfoCont.appendChild(cardInfoSpan);
+    // bottomImgCont.appendChild(cardInfoCont);
+
+
+
 
     // if (product.info === undefined) {
     //   product.rate.forEach((element) => {
@@ -294,34 +300,33 @@ function cardReader(card) {
     //   });
     // }
 
-    cardInfoCont.appendChild(cardInfoSpan);
-    bottomImgCont.appendChild(cardInfoCont);
+  
 
     //like
-    let cardLikeDiv = document.createElement("div");
-    cardLikeDiv.className = "likeCont";
-    let cardLikeBtn = document.createElement("button");
-    cardLikeBtn.type = "button";
-    cardLikeBtn.className = "likeBtn";
-    let cardLikeImg = document.createElement("img");
-    cardLikeImg.className = "cardLike";
-    cardLikeImg.src = product.like;
+    // let cardLikeDiv = document.createElement("div");
+    // cardLikeDiv.className = "likeCont";
+    // let cardLikeBtn = document.createElement("button");
+    // cardLikeBtn.type = "button";
+    // cardLikeBtn.className = "likeBtn";
+    // let cardLikeImg = document.createElement("img");
+    // cardLikeImg.className = "cardLike";
+    // cardLikeImg.src = product.like;
 
-    cardLikeDiv.appendChild(cardLikeBtn);
-    cardLikeBtn.appendChild(cardLikeImg);
-    titleSection.appendChild(cardLikeDiv);
+    // cardLikeDiv.appendChild(cardLikeBtn);
+    // cardLikeBtn.appendChild(cardLikeImg);
+    // titleSection.appendChild(cardLikeDiv);
 
     //discountPercent
-    let discountPercentDiv = document.createElement("div");
-    discountPercentDiv.className = "discountPercent";
-    let discountPercentSpan = document.createElement("span");
-    discountPercentSpan.className = "percent";
-    discountPercentSpan.innerText = product.discountPercent;
+    // let discountPercentDiv = document.createElement("div");
+    // discountPercentDiv.className = "discountPercent";
+    // let discountPercentSpan = document.createElement("span");
+    // discountPercentSpan.className = "percent";
+    // discountPercentSpan.innerText = product.discountPercent;
 
-    discountPercentDiv.appendChild(discountPercentSpan);
-    bottomImgCont.appendChild(discountPercentDiv);
+    // discountPercentDiv.appendChild(discountPercentSpan);
+    // bottomImgCont.appendChild(discountPercentDiv);
 
-    cardContentDiv.appendChild(cardImgCont);
+     cardContentDiv.appendChild(cardImgCont);
 
     //card Title Content
     let cardTitleCont = document.createElement("div");

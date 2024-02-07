@@ -11,8 +11,7 @@
     display: inline-flex;
     padding: 3.125rem 1.925rem;
     margin: 0 6.531rem;
-    flex-wrap: wrap;
-    gap: 2rem;
+    gap: 1rem;
     justify-content: center;
 }
 
